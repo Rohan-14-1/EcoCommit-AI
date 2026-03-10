@@ -1,2 +1,2 @@
 # EcoCommit-AI
-#Add home.html
+rgb(224, 32, 32) home.html, home.css
