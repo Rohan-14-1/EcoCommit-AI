@@ -1,0 +1,178 @@
+:root{
+--green:#2e7d32;
+--blue:#1f4fa3;
+--bg:#eef5f1;
+--shadow:0 10px 30px rgba(0,0,0,.06);
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,sans-serif;
+}
+
+body{
+background:linear-gradient(#edf5f1,#e9f0ec);
+color:#1e2c28;
+}
+
+/* NAV */
+
+
+/* HERO */
+.hero{
+width:1100px;
+margin:70px auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.badge{
+background:#e7f3ea;
+padding:8px 14px;
+border-radius:20px;
+font-size:13px;
+color:#2e7d32;
+}
+
+.hero h1{
+font-size:58px;
+line-height:1.1;
+margin:20px 0;
+}
+
+.gradientText{
+    background: linear-gradient(90deg, #2e7d32, #1f4fa3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Important */
+    background-clip: text;
+    color: transparent;
+}
+
+.hero p{
+color:#6b7b78;
+max-width:480px;
+}
+
+.heroBtns{
+margin:25px 0;
+}
+
+.primary{
+background:linear-gradient(90deg,var(--green),var(--blue));
+color:white;
+border:none;
+padding:14px 22px;
+border-radius:12px;
+margin-right:12px;
+}
+
+.secondary{
+border:1px solid #cfdad6;
+background:white;
+padding:14px 22px;
+border-radius:12px;
+}
+
+.heroRight img{
+width:420px;
+filter:drop-shadow(0 30px 40px rgba(0,0,0,.15));
+}
+
+/* STATS */
+.stats{
+display:flex;
+gap:50px;
+margin-top:20px;
+}
+
+.stats h3{
+font-size:22px;
+}
+
+/* SECTIONS */
+section{
+text-align:center;
+margin:100px auto;
+width:1000px;
+}
+
+.sub{
+color:#7b8b88;
+margin:8px 0 30px;
+}
+
+/* STEPS */
+.steps{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.step{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:var(--shadow);
+width:210px;
+}
+
+/* FEATURES */
+.featureGrid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.feature{
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:var(--shadow);
+text-align:left;
+}
+
+/* CTA */
+.cta{
+background:linear-gradient(90deg,#2e7d32,#1f4fa3);
+color:white;
+padding:50px;
+border-radius:18px;
+width:800px;
+}
+
+.cta button{
+margin-top:20px;
+padding:12px 22px;
+border-radius:10px;
+border:none;
+}
+
+/* FOOTER */
+footer{
+background:#ffffff;
+color:#222;
+text-align:center;
+padding:22px;
+font-size:14px;
+border-top:1px solid #eaeaea;
+letter-spacing:0.3px;
+}
+
+/* Earth rotation */
+.earth-rotate {
+    width: 350px; /* adjust if needed */
+    animation: rotateEarth 20s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes rotateEarth {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
