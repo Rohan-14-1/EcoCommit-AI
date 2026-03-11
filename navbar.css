@@ -1,0 +1,80 @@
+.main-navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 50px;
+    background:#f5f7f6;
+    border-bottom:1px solid #e2e8e5;
+}
+
+.nav-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo-box{
+    width:36px;
+    height:36px;
+    background:#2e7d32;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+}
+
+.logo-text{
+    font-weight:600;
+    font-size:18px;
+}
+
+.nav-links{
+    display:flex;
+    gap:28px;
+    margin-left:auto;
+    margin-right:20px;
+}
+
+.nav-link{
+    text-decoration:none;
+    color:#2f3e3a;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#2e7d32;
+}
+
+.auth-section{
+    display:flex;
+    gap:12px;
+}
+
+.nav-btn{
+    padding:8px 18px;
+    border-radius:8px;
+    font-weight:500;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.green-outline{
+    background:transparent;
+    border:2px solid #2e7d32;
+    color:#2e7d32;
+}
+
+.green-outline:hover{
+    background:#e8f5e9;
+}
+
+.green-fill{
+    background:#2e7d32;
+    color:white;
+    border:none;
+}
+
+.green-fill:hover{
+    background:#1b5e20;
+}
