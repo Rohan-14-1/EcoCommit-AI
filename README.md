@@ -1,4 +1,4 @@
 # EcoCommit-AI
 ADD: home.html, home.css, home.js
 <br>
-Add: navbar.html
+Add: navbar.html , navbar.css,
