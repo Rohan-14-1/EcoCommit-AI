@@ -5,4 +5,4 @@ Add: navbar.html , navbar.css, navbar.js
 <br>
 Day:3
 <br>
-Add: dashboard.html, dashboard.css
+Add: dashboard.html, dashboard.css, dashboard.js
