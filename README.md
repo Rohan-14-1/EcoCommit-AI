@@ -9,4 +9,4 @@ Add: dashboard.html, dashboard.css, dashboard.js
 <br>
 Day:4
 <br>
-Add: 
+Add: image.png,
